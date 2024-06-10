@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Текст белого цвета для лучшей читаемости */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный черный фон для навигации */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* Белый цвет текста в навигации */
+}
+
+h1, h2 {
+    margin-top: 20px;
+    color: #fff; /* Белый цвет заголовков */
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный черный фон для футера */
+    color: #fff; /* Белый цвет текста в футере */
+}
+
+li, p{
+    color: #fff;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон для контейнера */
+    padding: 20px;
+    border-radius: 10px;
+}
